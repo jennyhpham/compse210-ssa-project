@@ -3,4 +3,59 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_CyfUECoXEfGvVp8WdRgFwA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AR" name="Restaurant"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AC" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ACO" name="Courier"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_APS" name="External Payment Service"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A1" memberEnd="_A1E1 _A1E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A1E1" type="_AR" association="_A1"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A1E2" type="_UC3" association="_A1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A2" memberEnd="_A2E1 _A2E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A2E1" type="_AR" association="_A2"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A2E2" type="_UC4" association="_A2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A3" memberEnd="_A3E1 _A3E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A3E1" type="_AR" association="_A3"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A3E2" type="_UC5" association="_A3"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A4" memberEnd="_A4E1 _A4E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A4E1" type="_AC" association="_A4"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A4E2" type="_UC1" association="_A4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A5" memberEnd="_A5E1 _A5E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A5E1" type="_AC" association="_A5"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A5E2" type="_UC2" association="_A5"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A6" memberEnd="_A6E1 _A6E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A6E1" type="_APS" association="_A6"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A6E2" type="_UC1" association="_A6"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A7" memberEnd="_A7E1 _A7E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A7E1" type="_ACO" association="_A7"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A7E2" type="_UC6" association="_A7"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A8" memberEnd="_A8E1 _A8E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A8E1" type="_ACO" association="_A8"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A8E2" type="_UC7" association="_A8"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A9" memberEnd="_A9E1 _A9E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A9E1" type="_ACO" association="_A9"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A9E2" type="_UC8" association="_A9"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_A10" memberEnd="_A10E1 _A10E2">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A10E1" type="_ACO" association="_A10"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_A10E2" type="_UC9" association="_A10"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="__2PZ0CogEfGoBNBIfdK1DA" name="F-Low System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC1" name="UC-1 Food Ordering"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC2" name="UC-2 Location Tracking of Courier"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC3" name="UC-3 Updating Food Item Menu"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC4" name="UC-4 Order Received Acknowledgement"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC5" name="UC-5 Order Ready for Delivery"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC6" name="UC-6 See Available Deliveries"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC7" name="UC-7 Accept Delivery"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC8" name="UC-8 Order Pickup"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UC9" name="UC-9 View Courier Statistics"/>
+  </packagedElement>
 </uml:Model>
